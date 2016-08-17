@@ -20,9 +20,9 @@ default: &default
   # For details on connection pooling, see rails configuration guide
   # http://guides.rubyonrails.org/configuring.html#database-pooling
   pool: 5
-  host: localhost
-  username: higorrocha
-  password: post123
+  host: ec2-54-204-37-135.compute-1.amazonaws.com
+  username: feqflvoxwjgbox
+  password: zmnoBbyz7oxJNEpJ3uADMjn1NV
 
 development:
   <<: *default
